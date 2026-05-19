@@ -8,4 +8,5 @@ Statische Landingpage fuer SMART ReplySuite.
 - `landing.html` - direkte Landingpage-Datei
 - `landing-styles.css` - Styling
 - `assets/smart-mailresponse-icon.png` - Produkt-Icon
-- `screenshot-optimized.png` - Hero- und Produkt-Screenshot
+- `landing-hero-shot.jpg` - zugeschnittener Hero-Screenshot
+- `landing-product-shot.jpg` - Produkt-Screenshot
