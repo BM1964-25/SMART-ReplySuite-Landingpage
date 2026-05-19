@@ -210,11 +210,15 @@ p {
 
 .hero-metrics div {
   min-height: 82px;
+  display: grid;
+  align-content: center;
+  justify-items: center;
   padding: 13px 15px;
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: var(--radius);
   background: rgba(255, 255, 255, 0.12);
   backdrop-filter: blur(16px);
+  text-align: center;
 }
 
 .hero-metrics dt {
@@ -746,6 +750,7 @@ code {
   max-width: 520px;
   color: var(--muted);
   line-height: 1.45;
+  white-space: nowrap;
 }
 
 .site-footer p {
