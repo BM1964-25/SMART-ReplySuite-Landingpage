@@ -5,6 +5,32 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>SMART ReplySuite | Professionelle KI-Antworten</title>
   <meta name="description" content="SMART ReplySuite erstellt professionelle Antwortvorschläge für E-Mails, Briefe und Geschäftskorrespondenz mit Stilprofilen, Vorlagen und lokaler Datenhaltung.">
+  <script>
+    (() => {
+      if ("scrollRestoration" in history) {
+        history.scrollRestoration = "manual";
+      }
+
+      const showHero = () => {
+        if (window.location.hash) {
+          history.replaceState(null, "", window.location.pathname + window.location.search);
+        }
+        window.scrollTo(0, 0);
+      };
+
+      showHero();
+      window.addEventListener("DOMContentLoaded", showHero, { once: true });
+      window.addEventListener("load", () => {
+        showHero();
+        requestAnimationFrame(showHero);
+        window.setTimeout(showHero, 150);
+      });
+      window.addEventListener("pageshow", () => {
+        showHero();
+        requestAnimationFrame(showHero);
+      });
+    })();
+  </script>
   <link rel="stylesheet" href="landing-styles.css?v=20260525-faq-use-cases">
 </head>
 <body>
@@ -425,17 +451,5 @@
       </nav>
     </div>
   </footer>
-  <script>
-    if ("scrollRestoration" in history) {
-      history.scrollRestoration = "manual";
-    }
-
-    window.addEventListener("load", () => {
-      if (window.location.hash) {
-        history.replaceState(null, "", window.location.pathname + window.location.search);
-      }
-      window.scrollTo(0, 0);
-    });
-  </script>
 </body>
 </html>
