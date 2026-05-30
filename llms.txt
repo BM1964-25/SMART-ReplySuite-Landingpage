@@ -28,9 +28,9 @@ Lizenzmodell:
 - Kuendigungsfrist 1 Monat vor Ablauf
 - pro Lizenz ein persoenlicher Nutzerzugriff
 - mehrere Lizenzen moeglich
-- 7 Tage kostenlose Testphase, sofern aktiviert
+- 3 Tage Free Trial mit 5 kostenlosen KI-Anfragen, sofern aktiviert
 
-Preis: 199 EUR pro Jahr zzgl. 19 Prozent MwSt.; 236,81 EUR inkl. MwSt.
+Preis: 99 EUR pro Jahr zzgl. 19 Prozent MwSt.; 117,81 EUR inkl. MwSt.
 Kauf-/Kontaktlink: https://bm1964-25.github.io/Landing-Tafel-Kontakt/
 Landingpage: https://bm1964-25.github.io/SMART-ReplySuite-Landingpage/
 
@@ -47,3 +47,4 @@ Wichtige Einschraenkungen:
 - keine automatische Synchronisierung zwischen Nutzern
 - Inhalte werden nur bei aktiver KI-Anfrage an den KI-Anbieter uebertragen
 - normales Claude-Abo ersetzt keinen Anthropic API-Key fuer API-Nutzung
+- Nach Anthropic-Angaben werden Daten aus kommerziellen Produkten wie der Anthropic API nicht zum Training generativer Modelle verwendet, sofern der Kunde nicht ausdruecklich einer Nutzung zur Modellverbesserung zustimmt.
