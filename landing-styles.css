@@ -1163,6 +1163,24 @@ p.eyebrow {
   background: #fff;
 }
 
+.faq-group + .faq-group {
+  border-top: 1px solid var(--line);
+}
+
+.faq-group h3 {
+  margin: 0;
+  padding: 22px 26px 14px;
+  background: rgba(234, 243, 252, 0.62);
+  color: var(--blue-dark);
+  font-size: 0.96rem;
+  font-weight: 900;
+  letter-spacing: 0;
+}
+
+.faq-group h3 + details {
+  border-top: 1px solid var(--line);
+}
+
 .faq-list details {
   background: #fff;
 }
