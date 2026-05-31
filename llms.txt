@@ -1,36 +1,55 @@
 # SMART ReplySuite
 
 App-Name: SMART ReplySuite
-Kategorie: Lokale Business-App mit browserbasierter KI-Arbeitsoberflaeche
-Kurzbeschreibung: SMART ReplySuite erstellt professionelle Antwortvorschlaege fuer E-Mails, Briefe, PDFs und Geschaeftskorrespondenz. Die App verbindet KI-Analyse, Antwortparameter, Stilprofile, Vorlagen, lokale PDF-/OCR-Verarbeitung und sichtbare Qualitaetsbewertung.
+App-Key: smart_replysuite
+Kategorie: Browserbasierte BuiltSmart App fuer KI-gestuetzte Geschaeftskommunikation
+Kurzbeschreibung: SMART ReplySuite erstellt professionelle Antwortvorschlaege fuer E-Mails, Briefe, PDFs und Geschaeftskorrespondenz. Die App verbindet KI-Analyse, Antwortparameter, Stilprofile, Vorlagen, PDF-/OCR-Verarbeitung und sichtbare Qualitaetsbewertung.
 Zielgruppe: Selbststaendige, kleine Teams, Projekt- und Baukommunikation, Assistenz, Management, Service und Kundenbetreuung.
 Hauptnutzen: Wiederkehrende oder sensible Kommunikation schneller, strukturierter und kontrollierter beantworten, ohne jedes Mal frei prompten zu muessen.
+
+Plattformmodell:
+- browserbasierte Anwendung fuer moderne Browser auf Windows, macOS und anderen Systemen
+- kein Installer und keine separate Desktop-Installation erforderlich
+- kein gemeinsamer Team- oder Cloud-Arbeitsbereich
 
 Zentrale Funktionen:
 - Quelle mit Betreff, Ziel, eingegangener Nachricht, PDF-Inhalten und eigenen Hinweisen
 - Dateiimport fuer PDF, DOCX, TXT, MD, CSV, HTML und RTF
-- Lokale PDF-Verarbeitung und OCR-Unterstuetzung fuer gescannte Seiten ueber die lokale App-Umgebung
+- PDF-Verarbeitung und OCR-Unterstuetzung fuer gescannte Seiten
 - Antwortparameter fuer Antworttyp, Fokus, Tonalitaet, Grundstil, Laenge und Antwortsprache
 - Stilprofile, Vorlagen, Bibliothek und Verlauf
 - Hauptantwort, Alternative, Kurzfassung und diplomatische Version
 - Qualitaetsbewertung fuer Konflikt, Hoeflichkeit, Klarheit und Verbindlichkeit
 - Export und Import lokaler Arbeitsdaten als JSON
 
-KI-Funktionen: KI-Analyse eingehender Nachrichten und Schreiben, Erzeugung professioneller Antwortvarianten, Optimierung vorhandener Entwuerfe. Fuer KI-Funktionen ist ein eigener Anthropic API-Key erforderlich.
+KI-Funktionen: KI ist Bestandteil der App-Funktion. Die Nutzung erfolgt ueber BuiltSmart AI Credits oder optional ueber einen eigenen Anthropic API Key. Im Trial sind 1.000 app-spezifische BuiltSmart AI Test-Credits enthalten.
 Nutzungsmodell: Einzelplatzanwendung mit persoenlichem Nutzerzugriff pro Lizenz.
-Speicherlogik: Inhalte werden lokal auf dem Geraet bzw. im lokalen Browser-Speicher gespeichert. Es gibt keine automatische zentrale Cloud-Datenbank, keine automatische Synchronisierung zwischen Nutzern und keine gemeinsamen Cloud-Arbeitsbereiche.
-Plattformen: macOS und Windows als lokale App-Pakete mit Browseroberflaeche und lokaler App-Umgebung.
+Nutzerkonto: Fuer Trial, Kauf, Lizenzpruefung und BuiltSmart AI Credits ist ein Nutzerkonto erforderlich. Der Login erfolgt per Magic Link.
+Speicherlogik: App-Inhalte bleiben in der jeweiligen App lokal im Browser, soweit die App so gebaut ist. Andere Nutzer greifen nicht auf dieselben lokalen Daten zu. Es gibt keine automatische zentrale Cloud-Datenbank und keine automatische Synchronisierung zwischen Nutzern.
+
+BuiltSmart AI Credits:
+- gehoeren zum jeweiligen Nutzerkonto
+- appuebergreifend innerhalb dieses Nutzerkontos nutzbar
+- Trial-Credits werden beim Start des Trials dem jeweiligen Nutzerkonto gutgeschrieben
+- bezahlte AI-Credits stehen dem Nutzerkonto zur Verfuegung, ueber das sie gekauft wurden
+- bei mehreren Lizenzen werden KI-Guthaben nicht automatisch auf alle Nutzer verteilt
+- alternativ kann ein eigener Anthropic API Key genutzt werden
+- bei eigenem Anthropic API Key erfolgt die Abrechnung direkt ueber Anthropic
+- der Anthropic API Key bleibt lokal in der jeweiligen App und wird nicht an das BuiltSmart Lizenzsystem gesendet
 
 Lizenzmodell:
 - Jahreslizenz
+- 99 EUR netto pro App und Jahr; 117,81 EUR inkl. 19 Prozent MwSt.
 - Laufzeit 12 Monate
 - automatische Verlaengerung um weitere 12 Monate
 - Kuendigungsfrist 1 Monat vor Ablauf
 - pro Lizenz ein persoenlicher Nutzerzugriff
-- mehrere Lizenzen moeglich
-- 3 Tage Free Trial mit 5 kostenlosen KI-Anfragen, sofern aktiviert
+- mehrere Lizenzen derselben App koennen ueber die Menge im Checkout gekauft werden
+- ein Checkout gilt jeweils fuer eine App
+- Jahreslizenz enthaelt den App-Zugang, aber keine unbegrenzte KI-Nutzung
+- Trial: 3 Tage kostenlos testen mit vollem App-Zugriff
+- Trial-Credits: 1.000 app-spezifische BuiltSmart AI Test-Credits
 
-Preis: 99 EUR pro Jahr zzgl. 19 Prozent MwSt.; 117,81 EUR inkl. MwSt.
 Kauf-/Kontaktlink: https://bm1964-25.github.io/Landing-Tafel-Kontakt/
 Landingpage: https://bm1964-25.github.io/SMART-ReplySuite-Landingpage/
 
@@ -41,10 +60,10 @@ Rechtliche Links:
 - Widerrufsbelehrung: https://www.built-smart-hub.com/widerrufsbelehrung
 
 Wichtige Einschraenkungen:
-- Einzelplatzanwendung, kein gemeinsamer Cloud-Arbeitsbereich
-- andere Nutzer greifen nicht auf dieselben lokalen Daten zu
+- Einzelplatzanwendung, kein gemeinsamer Team- oder Cloud-Arbeitsbereich
 - keine automatische zentrale Cloud-Datenbank
 - keine automatische Synchronisierung zwischen Nutzern
+- App-Inhalte bleiben lokal im Browser, soweit die App sie speichert
 - Inhalte werden nur bei aktiver KI-Anfrage an den KI-Anbieter uebertragen
-- normales Claude-Abo ersetzt keinen Anthropic API-Key fuer API-Nutzung
+- normales Claude-Abo ersetzt keinen Anthropic API Key fuer API-Nutzung
 - Nach Anthropic-Angaben werden Daten aus kommerziellen Produkten wie der Anthropic API nicht zum Training generativer Modelle verwendet, sofern der Kunde nicht ausdruecklich einer Nutzung zur Modellverbesserung zustimmt.
