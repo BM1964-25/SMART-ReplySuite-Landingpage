@@ -22,7 +22,7 @@ Zentrale Funktionen:
 - Qualitaetsbewertung fuer Konflikt, Hoeflichkeit, Klarheit und Verbindlichkeit
 - Export und Import lokaler Arbeitsdaten als JSON
 
-KI-Funktionen: KI ist Bestandteil der App-Funktion. Die Nutzung erfolgt ueber BuiltSmart AI Credits oder optional ueber einen eigenen Anthropic API Key. Im Trial sind 1.000 app-spezifische BuiltSmart AI Test-Credits enthalten.
+KI-Funktionen: KI ist Bestandteil der App-Funktion. Der Testzugang enthaelt 500 BuiltSmart AI Test-Credits. Danach laufen KI-Anfragen ueber BuiltSmart AI Guthaben oder optional ueber einen eigenen Anthropic API-Key.
 Nutzungsmodell: Einzelplatzanwendung mit persoenlichem Nutzerzugriff pro Lizenz.
 Nutzerkonto: Fuer Trial, Kauf, Lizenzpruefung und BuiltSmart AI Credits ist ein Nutzerkonto erforderlich. Der Login erfolgt per Magic Link.
 Speicherlogik: App-Inhalte bleiben in der jeweiligen App lokal im Browser, soweit die App so gebaut ist. Andere Nutzer greifen nicht auf dieselben lokalen Daten zu. Es gibt keine automatische zentrale Cloud-Datenbank und keine automatische Synchronisierung zwischen Nutzern.
@@ -48,7 +48,8 @@ Lizenzmodell:
 - ein Checkout gilt jeweils fuer eine App
 - Jahreslizenz enthaelt den App-Zugang, aber keine unbegrenzte KI-Nutzung
 - Trial: 3 Tage kostenlos testen mit vollem App-Zugriff
-- Trial-Credits: 1.000 app-spezifische BuiltSmart AI Test-Credits
+- Trial-Credits: 500 BuiltSmart AI Test-Credits
+- Nach dem Testzugang wird eine Jahreslizenz benoetigt. KI-Anfragen laufen anschliessend ueber BuiltSmart AI Guthaben oder einen eigenen Anthropic API-Key.
 
 Kauf-/Kontaktlink: https://bm1964-25.github.io/Landing-Tafel-Kontakt/
 Landingpage: https://bm1964-25.github.io/SMART-ReplySuite-Landingpage/
