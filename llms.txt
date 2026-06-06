@@ -18,6 +18,8 @@ Zentrale Funktionen:
 - PDF-Verarbeitung und OCR-Unterstuetzung fuer gescannte Seiten
 - Antwortparameter fuer Antworttyp, Fokus, Tonalitaet, Grundstil, Laenge und Antwortsprache
 - Stilprofile, Vorlagen, Bibliothek und Verlauf
+- 5 professionelle Beispielvorlagen und 5 Stilprofile sind dauerhaft nutzbar, frei bearbeitbar und beliebig erweiterbar
+- dauerhaft ladbares Demo-Szenario fuer Analyse, Hauptantwort, Alternative, Kurzfassung, diplomatische Version und Qualitaetsbewertung
 - Hauptantwort, Alternative, Kurzfassung und diplomatische Version
 - Qualitaetsbewertung fuer Konflikt, Hoeflichkeit, Klarheit und Verbindlichkeit
 - Export und Import lokaler Arbeitsdaten als JSON

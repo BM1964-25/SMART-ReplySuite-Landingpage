@@ -660,6 +660,132 @@ p.eyebrow {
   font-weight: 760;
 }
 
+.starter-section {
+  background:
+    radial-gradient(circle at 78% 18%, rgba(255, 255, 255, 0.78), rgba(255, 255, 255, 0) 30%),
+    linear-gradient(180deg, #d9ebf8 0%, #e8f3fb 100%);
+  border-block: 1px solid rgba(22, 104, 184, 0.08);
+}
+
+.starter-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 0.62fr) minmax(320px, 0.48fr);
+  gap: clamp(30px, 3.8vw, 46px);
+  align-items: center;
+}
+
+.starter-copy {
+  max-width: 620px;
+}
+
+.starter-copy h2 {
+  max-width: 680px;
+  margin-bottom: 22px;
+}
+
+.starter-copy p:not(.eyebrow) {
+  max-width: 570px;
+  margin-top: 16px;
+  color: #384960;
+  font-size: 1.08rem;
+  line-height: 1.68;
+}
+
+.starter-detail li,
+.starter-demo span {
+  color: var(--muted);
+  line-height: 1.58;
+}
+
+.starter-detail {
+  display: grid;
+  gap: 14px;
+  width: min(100%, 390px);
+  justify-self: end;
+}
+
+.starter-detail div {
+  padding: 22px 24px;
+  border: 1px solid rgba(22, 104, 184, 0.13);
+  border-radius: var(--radius);
+  background: rgba(255, 255, 255, 0.9);
+  box-shadow: 0 22px 56px rgba(24, 39, 60, 0.1);
+  backdrop-filter: blur(10px);
+}
+
+.starter-detail div + div {
+  border-left: 1px solid rgba(22, 104, 184, 0.13);
+}
+
+.starter-detail h3 {
+  margin: 0 0 16px;
+  color: var(--blue-dark);
+  font-size: 1rem;
+}
+
+.starter-detail ul {
+  margin: 0;
+  display: grid;
+  gap: 10px;
+  padding: 0;
+  list-style: none;
+}
+
+.starter-detail li {
+  position: relative;
+  padding-left: 28px;
+}
+
+@media (min-width: 981px) {
+  .starter-detail div {
+    padding-inline: 24px;
+  }
+
+  .starter-detail li {
+    white-space: nowrap;
+    font-size: 0.95rem;
+  }
+}
+
+.starter-detail li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 19px;
+  height: 19px;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  background: #dff5e9;
+  color: #13734c;
+  font-size: 0.78rem;
+  line-height: 1;
+  font-weight: 920;
+}
+
+.starter-demo {
+  display: grid;
+  grid-template-columns: minmax(210px, 0.28fr) minmax(0, 1fr);
+  gap: 18px;
+  align-items: center;
+  margin-top: 28px;
+  padding: 18px 24px;
+  border: 1px solid rgba(19, 115, 76, 0.18);
+  border-radius: var(--radius);
+  background: rgba(248, 253, 250, 0.74);
+  box-shadow: none;
+}
+
+.starter-demo strong {
+  color: #13734c;
+  font-size: 1rem;
+}
+
+.starter-demo span {
+  font-weight: 760;
+}
+
 .analysis-section {
   background:
     linear-gradient(180deg, rgba(255, 255, 255, 0.94), rgba(255, 255, 255, 1)),
@@ -1579,6 +1705,9 @@ code {
   .comparison-section,
   .comparison-list,
   .safeguard-grid,
+  .starter-layout,
+  .starter-detail,
+  .starter-demo,
   .audience-grid,
   .industry-panel,
   .faq-list,
