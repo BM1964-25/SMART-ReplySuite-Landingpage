@@ -3,9 +3,9 @@
 App-Name: SMART ReplySuite
 App-Key: smart_replysuite
 Kategorie: Browserbasierte BuiltSmart App fuer KI-gestuetzte Geschaeftskommunikation
-Kurzbeschreibung: SMART ReplySuite erstellt professionelle Antwortvorschlaege fuer E-Mails, Briefe, PDFs und Geschaeftskorrespondenz. Die App verbindet KI-Analyse, Antwortparameter, Stilprofile, Vorlagen, PDF-/OCR-Verarbeitung und sichtbare Qualitaetsbewertung.
+Kurzbeschreibung: SMART ReplySuite erstellt professionelle Antwortvorschlaege und optimiert eigene Schreiben fuer E-Mails, Briefe, PDFs und Geschaeftskorrespondenz. Die App verbindet KI-Analyse, Antwortparameter, Stilprofile, Vorlagen, PDF-/OCR-Verarbeitung, Textoptimierung und sichtbare Qualitaetsbewertung.
 Zielgruppe: Selbststaendige, kleine Teams, Projekt- und Baukommunikation, Assistenz, Management, Service und Kundenbetreuung.
-Hauptnutzen: Wiederkehrende oder sensible Kommunikation schneller, strukturierter und kontrollierter beantworten, ohne jedes Mal frei prompten zu muessen.
+Hauptnutzen: Wiederkehrende oder sensible Kommunikation schneller, strukturierter und kontrollierter beantworten sowie eigene Entwuerfe professionell verbessern, ohne jedes Mal frei prompten zu muessen.
 
 Plattformmodell:
 - browserbasierte Anwendung fuer moderne Browser auf Windows, macOS und anderen Systemen
@@ -17,6 +17,9 @@ Zentrale Funktionen:
 - Dateiimport fuer PDF, DOCX, TXT, MD, CSV, HTML und RTF
 - PDF-Verarbeitung und OCR-Unterstuetzung fuer gescannte Seiten
 - Antwortparameter fuer Antworttyp, Fokus, Tonalitaet, Grundstil, Laenge und Antwortsprache
+- eigene Entwuerfe verbessern, kuerzen, strukturieren oder verbindlicher formulieren
+- neue E-Mails, Briefe und Geschaeftsschreiben aus kurzen Vorgaben erzeugen
+- No-Gos wie keine Schuldzuweisung, kein Schuldeingestaendnis oder keine ungeprueften Zusagen beruecksichtigen
 - Stilprofile, Vorlagen, Bibliothek und Verlauf
 - 5 professionelle Beispielvorlagen und 5 Stilprofile sind dauerhaft nutzbar, frei bearbeitbar und beliebig erweiterbar
 - dauerhaft ladbares Demo-Szenario fuer Analyse, Hauptantwort, Alternative, Kurzfassung, diplomatische Version und Qualitaetsbewertung
@@ -60,7 +63,7 @@ Rechtliche Links:
 - Impressum: https://www.built-smart-hub.com/impressum
 - Datenschutz: https://www.built-smart-hub.com/datenschutz
 - AGB: https://www.built-smart-hub.com/agb
-- Widerrufsbelehrung: https://www.built-smart-hub.com/widerrufsbelehrung
+- Widerrufbelehrung: https://www.built-smart-hub.com/widerrufbelehrung
 
 Wichtige Einschraenkungen:
 - Einzelplatzanwendung, kein gemeinsamer Team- oder Cloud-Arbeitsbereich
